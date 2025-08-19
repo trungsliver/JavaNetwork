@@ -320,7 +320,7 @@ public class FileIO {
     // Mở file log (tạo mới nếu không tồn tại)
     private static void openLogFile() {
         if (logFile == null) {
-            logFile = new File("D:/InternBE/JavaNetwork/src/main/java/stream/log.txt");
+            logFile = new File("D:/InternBE/JavaNetwork/src/main/java/stream/file_log.log");
         }
         if (!logFile.exists()) {
             try {

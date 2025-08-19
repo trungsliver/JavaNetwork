@@ -1,0 +1,9 @@
+19/08/2025 15:17:29 - USER: Tạo thành công: D:/InternBE/JavaNetwork/src/main/java/stream/test2/file5.txt
+19/08/2025 15:18:17 - USER: Đổi tên thành công: D:\InternBE\JavaNetwork\src\main\java\stream\test2\file4.txt -> D:\InternBE\JavaNetwork\src\main\java\stream\test2\file2.txt
+19/08/2025 15:19:06 - USER: Copy thành công: D:\InternBE\JavaNetwork\src\main\java\stream\test2\file5.txt -> D:\InternBE\JavaNetwork\src\main\java\stream\test1\file5.txt
+19/08/2025 15:19:44 - USER: Di chuyển thành công: D:\InternBE\JavaNetwork\src\main\java\stream\test1\file6.txt -> D:\InternBE\JavaNetwork\src\main\java\stream\test2\file6.txt
+19/08/2025 15:20:14 - USER: Xóa thành công: D:\InternBE\JavaNetwork\src\main\java\stream\test2\file6.txt
+19/08/2025 15:20:48 - USER: Đọc nội dung thành công: D:\InternBE\JavaNetwork\src\main\java\stream\file_log.log
+19/08/2025 15:21:17 - USER: Đọc nội dung thành công: D:\InternBE\JavaNetwork\src\main\java\stream\test1\file1.txt
+19/08/2025 15:22:02 - USER: Ghi nội dung thành công: D:\InternBE\JavaNetwork\src\main\java\stream\test1\file1.txt
+19/08/2025 15:22:15 - USER: Đọc nội dung thành công: D:\InternBE\JavaNetwork\src\main\java\stream\test1\file1.txt
