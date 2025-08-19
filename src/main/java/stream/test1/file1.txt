@@ -1,3 +1,4 @@
 xin chào, đây là nội dung của file1.txt
 this is 2nd line
 test write file, this is 3rd line
+this is 4th line
