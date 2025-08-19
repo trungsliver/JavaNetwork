@@ -12,6 +12,7 @@ public class FileIO {
     public static void main(String[] args) throws IOException {
         String defaultPath = "D:/InternBE/JavaNetwork/src/main/java";
         openLogFile();
+
         java.util.Scanner sc = new java.util.Scanner(System.in);
         while (true) {
             System.out.println("===================== FILE IO =====================");
