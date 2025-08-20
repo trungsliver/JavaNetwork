@@ -6,3 +6,13 @@
     - Cho phép tạo và quản lý các kết nối UDP.
     - Cho phép gửi và nhận các gói tin DatagramPacket.
     - Cung cấp các phương thức để mở, đóng và quản lý kết nối UDP.
+
+3. InetAddress
+    - Đại diện cho một địa chỉ IP trong mạng.
+    - Cung cấp các phương thức để lấy địa chỉ IP từ tên máy hoặc ngược lại.
+    - Sử dụng để xác định địa chỉ đích khi gửi gói tin UDP
+
+4. Unicast, Multicast, Broadcast
+    - Unicast: Gửi gói tin đến một địa chỉ IP duy nhất.
+    - Multicast: Gửi gói tin đến một nhóm địa chỉ IP, cho phép nhiều máy nhận cùng một gói tin.
+    - Broadcast: Gửi gói tin đến tất cả các máy trong một mạng con.
