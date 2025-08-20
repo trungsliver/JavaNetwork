@@ -1,0 +1,8 @@
+1. DatagramPacket
+    - Là lớp đóng gói dữ liệu hoặc lưu trữ dữ liệu trong một gói tin UDP.
+    - Cho phép gửi và nhận dữ liệu độc lập
+
+2. DatagramSocket
+    - Cho phép tạo và quản lý các kết nối UDP.
+    - Cho phép gửi và nhận các gói tin DatagramPacket.
+    - Cung cấp các phương thức để mở, đóng và quản lý kết nối UDP.
