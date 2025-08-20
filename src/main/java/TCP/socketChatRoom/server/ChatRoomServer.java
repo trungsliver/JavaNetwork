@@ -1,4 +1,4 @@
-package socketChatRoom.server;
+package TCP.socketChatRoom.server;
 
 public class ChatRoomServer {
     public static void main(String[] args) {

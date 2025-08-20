@@ -1,4 +1,4 @@
-package socketChat;
+package TCP.socketChat;
 
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -6,7 +6,7 @@ import java.net.Socket;
 public class ChatServer {
     public static void main(String[] args) {
         try {
-            // Tạo server socket và lắng nghe kết nối từ client
+            // Tạo server TCP.socket và lắng nghe kết nối từ client
            int port = 99;
            ServerSocket serverSocket = new ServerSocket(port);
 

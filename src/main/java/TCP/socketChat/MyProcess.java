@@ -1,4 +1,4 @@
-package socketChat;
+package TCP.socketChat;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -38,7 +38,7 @@ public class MyProcess extends Thread {
             }
 
 
-//            socket.close();
+//            TCP.socket.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

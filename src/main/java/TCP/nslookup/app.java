@@ -1,4 +1,4 @@
-package nslookup;
+package TCP.nslookup;
 
 import java.net.InetAddress;
 import java.util.Scanner;

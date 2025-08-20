@@ -1,4 +1,4 @@
-package socketChatRoom.server;
+package TCP.socketChatRoom.server;
 
 import java.io.InputStream;
 import java.io.OutputStream;

@@ -1,8 +1,6 @@
-package socket;
+package TCP.socket;
 
-import java.net.HttpURLConnection;
 import java.net.Socket;
-import java.net.URL;
 
 public class PortScanner {
     public static void main(String[] args) {

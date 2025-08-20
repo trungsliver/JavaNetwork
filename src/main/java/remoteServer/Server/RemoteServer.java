@@ -9,9 +9,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Scanner;
 
 public class RemoteServer {
     public static void main(String[] args) {
@@ -28,7 +25,7 @@ public class RemoteServer {
                 thread.start();
             }
         } catch (Exception e) {
-            System.out.println("Error creating server socket: " + e.getMessage());
+            System.out.println("Error creating server TCP.socket: " + e.getMessage());
         }
     }
 
