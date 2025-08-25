@@ -34,7 +34,11 @@ public class ChatServer {
             if (!clientHandler.getId().equals(id)) {
                 clientHandler.sendMessage(id + ": " + message);
             }
-
         }
+    }
+
+    public void removeClient(ClientHandler clientHandler) {
+        clients.remove(clientHandler);
+        System.out.println("Client disconnected: " + clientHandler.getId());
     }
 }

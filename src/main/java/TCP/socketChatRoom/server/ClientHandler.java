@@ -35,8 +35,17 @@ public class ClientHandler implements Runnable{
                 String message = new String(buffer, 0, bytesRead);
                 chatServer.broadcastMessage(this.id,  message);
             }
-        }catch (Exception e){
-            e.printStackTrace();
+        } catch (Exception e) {
+            // Không in stack trace khi client disconnect
+            // Có thể kiểm tra loại lỗi nếu muốn, nhưng ở đây chỉ bỏ qua
+        } finally {
+            // Khi client ngắt kết nối, loại khỏi danh sách
+            chatServer.removeClient(this);
+            try {
+                socket.close();
+            } catch (Exception ex) {
+                // ...ignore...
+            }
         }
     }
 
